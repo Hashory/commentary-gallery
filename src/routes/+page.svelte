@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	function open_folder() {
+		alert("Open folder");
+	}
+</script>
+
+<h1>Commentary Gallery</h1>
+
+<button on:click={open_folder}>Open folder</button>
